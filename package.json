@@ -1,0 +1,30 @@
+{
+  "name": "djs-v14-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.0.0",
+    "@discordjs/rest": "^1.0.0",
+    "axios": "^1.2.3",
+    "body-parser": "^1.20.1",
+    "discord.js": "^14.0.3",
+    "express": "^4.18.2",
+    "imgbb-uploader": "^1.5.0",
+    "mercadopago": "^1.5.14",
+    "mysql2": "^3.0.1",
+    "sequelize": "^6.28.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
